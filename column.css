@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8.1rem;
+  padding-right: 8.1rem;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.row ::after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.col {
+  float: right;
+  box-sizing: border-box;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.col-1 {
+  width: 8.3333%;
+}
+.col-2 {
+  width: 16.6666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.3333%;
+}
+.col-5 {
+  width: 41.6665%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.3331%;
+}
+.col-8 {
+  width: 66.6664%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.3333%;
+}
+.col-11 {
+  width: 91.6663%;
+}
+.col-12 {
+  width: 100%;
+}

@@ -1,0 +1,222 @@
+:root {
+  --dark-high: #101010;
+  --dark-medium: #1b1b1b;
+  --primary-color: #30384d;
+  --secondery-color: #39ff14;
+}
+body {
+  font-family: "Yekan";
+  background-color: var(--dark-high);
+  color: white;
+  direction: rtl;
+}
+.flex {
+  display: flex;
+}
+.rounded {
+  border-radius: 10px;
+}
+.header {
+  background-image: url(./assets/images/backgrond-image/Rectangle\ 22901.png);
+}
+.header .holder.flex {
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+.header .holder .enter {
+  background-color: var(--secondery-color);
+  padding: 13px 45px;
+  text-align: center;
+  color: black;
+  cursor: pointer;
+}
+.header .holder .register {
+  color: white;
+  background-color: var(--dark-high);
+  padding: 13px 45px;
+  border: 1px solid var(--secondery-color);
+  text-align: center;
+  cursor: pointer;
+}
+.hero-section .holder {
+  justify-content: space-between;
+}
+.hero-section .holder .details {
+  margin-top: 80px;
+  width: 470px;
+}
+.hero-section .holder .details h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+.hero-section .holder .details p {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 27px 0;
+  line-height: 22px;
+}
+.hero-section .holder .details .btn-holder {
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-section .holder .details .btn-holder .teritory-selector {
+  background-color: #434a5a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 12px;
+  gap: 173px;
+  cursor: pointer;
+}
+.hero-section .holder .details .btn-holder .teritory-selector img {
+  width: 12px;
+  height: 12px;
+}
+.hero-section .holder .details .btn-holder .send-damage {
+  background-color: var(--secondery-color);
+  padding: 16px 20px;
+  color: black;
+  cursor: pointer;
+}
+.hero-section .holder .images {
+  margin-top: 117px;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.hero-section .holder .images .top-image {
+  width: 400px;
+  height: 252px;
+}
+.hero-section .holder .images .top-image img.laptop {
+  width: 100%;
+}
+.hero-section .holder .images .top-image img.white-hat {
+  width: 239px;
+  height: 239px;
+  position: absolute;
+  right: 22px;
+  top: -3px;
+}
+.hero-section .holder .images .button-image {
+  width: 374px;
+  height: 15px;
+}
+.hero-section .holder .images .button-image img {
+  width: 100%;
+}
+section.competition {
+  background-color: var(--dark-medium);
+  margin-top: 134px;
+  position: relative;
+}
+.competition .advertise {
+  gap: 20px;
+  position: absolute;
+  top: -60px;
+  right: 170px;
+}
+.competition .advertise .present .holder,
+.competition .advertise .hiring .holder,
+.competition .advertise .mounthly-present .holder {
+  width: 48px;
+  height: 48px;
+  background-color: #434a5a;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.competition .advertise .present,
+.competition .advertise .hiring,
+.competition .advertise .mounthly-present {
+  width: 380px;
+  height: 120px;
+  background-color: #30384d;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+.competition h2 {
+  text-align: center;
+  padding-top: 134px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.competition p.how-to-join {
+  text-align: center;
+  margin-top: 17px;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 72px;
+}
+.competition .dashed-line {
+  width: 904px;
+  border-bottom: 1px dashed white;
+  margin-right: 15px;
+  position: relative;
+}
+.competition .dashed-line .rounded-steps {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #454c5f;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.competition .dashed-line .rounded-steps.selection {
+  top: -32px;
+  right: -15px;
+}
+.competition .dashed-line .rounded-steps.observation {
+  top: -32px;
+  right: 290px;
+}
+.competition .dashed-line .rounded-steps.register {
+  top: -32px;
+  right: 600px;
+}
+.competition .dashed-line .rounded-steps.present {
+  top: -32px;
+  left: -66px;
+}
+
+.competition .competition-steps {
+  justify-content: space-between;
+  margin-top: 52px;
+  gap: 60px;
+  margin-bottom: 81px;
+}
+.competition .competition-steps .step1 h4,
+.competition .competition-steps .step2 h4,
+.competition .competition-steps .step3 h4,
+.competition .competition-steps .step4 h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.competition .competition-steps .step1 p,
+.competition .competition-steps .step2 p,
+.competition .competition-steps .step3 p,
+.competition .competition-steps .step4 p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding-left: 40px;
+}
+.competition .super-present h4 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.competition .super-present {
+  background-image: url(./assets/images/Group\ 6812962.svg);
+  background-color: #454c5f;
+}
+.competition .super-present h4 span {
+  color: var(--secondery-color);
+}
+.competition .super-present p {
+  text-align: center;
+  padding: 0 262px 40px 262px;
+}
