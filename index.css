@@ -16,6 +16,15 @@ body {
 .rounded {
   border-radius: 10px;
 }
+.full-rounded {
+  border-radius: 50%;
+}
+.btn {
+  background-color: var(--primary-color);
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 10px;
+}
 .header {
   background-image: url(./assets/images/backgrond-image/Rectangle\ 22901.png);
 }
@@ -219,4 +228,75 @@ section.competition {
 .competition .super-present p {
   text-align: center;
   padding: 0 262px 40px 262px;
+}
+.calc-gift {
+  position: relative;
+  margin-bottom: 80px;
+}
+.calc-gift .holder {
+  margin-top: 113px;
+  gap: 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+.calc-gift .details::after {
+  content: "";
+  background-color: var(--dark-medium);
+  height: 256px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.calc-gift .details h4 {
+  font-size: 36px;
+  font-weight: 700px;
+  margin-bottom: 20px;
+}
+.calc-gift .details p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 300;
+  padding-left: 86px;
+}
+.calc-gift .details p span {
+  color: var(--secondery-color);
+}
+.calc-gift .category {
+  flex-direction: column;
+  gap: 20px;
+}
+.calc-gift .category .vital,
+.calc-gift .category .critical,
+.calc-gift .category .high,
+.calc-gift .category .medium,
+.calc-gift .category .low {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+}
+.calc-gift .category .price {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.calc-gift .category .price .picture {
+  width: 48px;
+  height: 48px;
+  background-color: var(--dark-medium);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.best-hackers .heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.best-hackers .description {
+  padding: 17px 100px;
+  text-align: center;
 }
