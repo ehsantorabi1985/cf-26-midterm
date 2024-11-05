@@ -21,8 +21,8 @@ body {
 }
 .btn {
   background-color: var(--primary-color);
-  min-width: 200px;
-  min-height: 50px;
+  min-width: 203px;
+  min-height: 40px;
   border-radius: 10px;
 }
 .header {
@@ -290,6 +290,9 @@ section.competition {
   justify-content: center;
   align-items: center;
 }
+section.best-hackers {
+  margin-bottom: 130px;
+}
 .best-hackers .heading {
   display: flex;
   justify-content: center;
@@ -405,4 +408,168 @@ section.competition {
 }
 .hide {
   filter: blur(3px);
+}
+.best-hackers .announcing .holder-btn .btn.topic {
+  background: rgba(255, 255, 255, 0);
+  align-items: center;
+  justify-content: space-around;
+  padding: 3px 60px 3px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.best-hackers .announcing .holder-btn .mini-pic {
+  position: relative;
+}
+.best-hackers .announcing .holder-btn .mini-pic .mini-pic-holder img {
+  width: 100%;
+  height: auto;
+}
+.best-hackers .announcing .holder-btn .mini-pic .mini-pic1 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 0;
+  right: 0;
+}
+.best-hackers .announcing .holder-btn .mini-pic .mini-pic2 {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  top: 0;
+  right: 300px;
+}
+.best-hackers .announcing .holder-btn .mini-pic .mini-pic3 {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 5px;
+  right: 600px;
+}
+section.measurement {
+}
+.measurement .header {
+  text-align: center;
+  padding: 40px 0;
+  background-image: url(./assets/images/Group\ 6812962.svg);
+  background-color: #454c5f;
+  margin-bottom: 80px;
+}
+.measurement .header h4 {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.measurement .header p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.measurement .finding-damage {
+  margin-bottom: 80px;
+}
+.measurement .finding-damage .holder {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.measurement .finding-damage .holder h4 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 38px;
+}
+.measurement .finding-damage .holder p {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0 250px;
+  line-height: 22px;
+}
+.measurement .finding-damage .holder p span {
+  color: var(--secondery-color);
+}
+.measurement .domains-header {
+  margin: 0 auto;
+  background-color: var(--dark-medium);
+  border: 1px solid #d9d9d933;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.measurement .domains-header img {
+  width: 36px;
+  height: 36px;
+}
+.measurement .finding-damage .domains-details {
+  background-color: var(--dark-medium);
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 30px;
+}
+.measurement .finding-damage .domains-details .btn.col-4 {
+  justify-content: center;
+  align-items: center;
+}
+.measurement .finding-damage .ip-range-header {
+  margin: 0 auto;
+  background-color: var(--dark-medium);
+  border: 1px solid #d9d9d933;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.measurement .finding-damage .ip-range-header .ip-pic {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 36px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondery-color);
+  font-weight: 300;
+  font-size: 24px;
+}
+.measurement .finding-damage .ip-range-header p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.measurement .finding-damage .ip-range-details {
+  background-color: var(--dark-medium);
+  padding: 30px 30px;
+}
+.measurement .finding-damage .ip-range-details .row {
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+}
+.measurement .finding-damage .ip-range-details .row .btn.col-3 {
+  justify-content: center;
+  align-items: center;
+}
+.measurement .finding-damage .ip-range-details .last-btn {
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.measurement .finding-damage .ip-range-details .last-btn .btn.col-3 {
+  justify-content: center;
+  align-items: center;
+}
+.measurement .finding-damage .damages-header {
+  margin: 0 auto;
+  background-color: var(--dark-medium);
+  border: 1px solid #d9d9d933;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 16px;
+}
+.measurement .finding-damage .damages-details .title {
+  justify-content: space-evenly;
 }
