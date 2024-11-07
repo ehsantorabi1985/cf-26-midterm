@@ -25,6 +25,9 @@ body {
   min-height: 40px;
   border-radius: 10px;
 }
+.btn.red {
+  background-color: #944040;
+}
 .header {
   background-image: url(./assets/images/backgrond-image/Rectangle\ 22901.png);
 }
@@ -570,6 +573,123 @@ section.measurement {
   font-weight: 300;
   font-size: 16px;
 }
-.measurement .finding-damage .damages-details .title {
+.measurement .finding-damage .damages-details {
+  padding: 30px 20px;
+  background-color: var(--dark-medium);
+}
+.measurement .finding-damage .damages-details .nav-bar {
   justify-content: space-evenly;
+  border-bottom: 1px solid white;
+  margin-bottom: 30px;
+}
+.measurement .finding-damage .damages-details .nav-bar .nav {
+  padding: 10px 10px;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: -10px;
+}
+.measurement .finding-damage .damages-details .nav-bar .nav.active::after {
+  content: "";
+  width: 100%;
+  height: 6px;
+  background-color: var(--secondery-color);
+  border-radius: 10px;
+}
+.measurement
+  .finding-damage
+  .damages-details
+  .damage-details-container
+  .damages-btn
+  .row {
+  gap: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.measurement
+  .finding-damage
+  .damages-details
+  .damage-details-container
+  .damages-btn
+  .row
+  .btn {
+  justify-content: center;
+  align-items: center;
+}
+.measurement .finding-damage .damages-out-range {
+  background-color: #454c5f;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  padding: 22px 0;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+.measurement .finding-damage .damages-out-range p span {
+  color: var(--secondery-color);
+}
+/* .forbiden-measurement {
+  border: 1px solid #944040;
+} */
+.forbiden-measurement h4 {
+  margin-top: 134px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.forbiden-measurement h4 span {
+  color: #944040;
+}
+.forbiden-measurement .not-damage-details-container {
+  padding: 40px 20px;
+  border: 1px solid #944040;
+  margin-bottom: 130px;
+}
+.forbiden-measurement .not-damage-details-container .not-damages-btn .row {
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.forbiden-measurement .not-damage-details-container .not-damages-btn .row .btn {
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+.rule .header-rule h5 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.rule .header-rule p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.rule .header-rule p span {
+  color: var(--secondery-color);
+}
+.rule .rule-details {
+  margin-top: 60px;
+  padding-right: 110px;
+}
+.rule .rule-details .row-container {
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.rule .rule-details .row-container .image-holder {
+  width: 24px;
+  height: 24px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.rule .rule-details .row-container .image-holder img {
+  width: 16px;
+  height: 16px;
 }
