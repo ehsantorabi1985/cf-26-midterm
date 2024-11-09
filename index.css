@@ -657,6 +657,22 @@ section.measurement {
   font-size: 14px;
   font-weight: 500;
 }
+.rule {
+  position: relative;
+}
+.rule .image-keeper {
+  width: 525px;
+  height: 525px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 40px;
+}
+.rule .image-keeper img {
+  width: 100%;
+  height: auto;
+  opacity: 0.3;
+}
 .rule .header-rule h5 {
   font-size: 36px;
   font-weight: 700;
@@ -674,7 +690,7 @@ section.measurement {
 }
 .rule .rule-details {
   margin-top: 60px;
-  padding-right: 110px;
+  padding-right: 106px;
 }
 .rule .rule-details .row-container {
   align-items: center;
@@ -692,4 +708,78 @@ section.measurement {
 .rule .rule-details .row-container .image-holder img {
   width: 16px;
   height: 16px;
+}
+.report {
+  padding: 60px 0;
+  background-color: var(--dark-medium);
+}
+.report .heading {
+  padding-right: 106px;
+}
+.report .heading h3 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.report .heading p {
+  font-size: 14px;
+  font-weight: 300;
+}
+.report .report-details {
+  margin-top: 40px;
+  padding-right: 117px;
+  align-items: center;
+  gap: 216px;
+}
+.report .report-details .upload-image {
+  width: 240px;
+  height: 240px;
+}
+.report .report-details .upload-image img {
+  width: 100%;
+  height: auto;
+}
+
+.report .report-details .report-including {
+  flex-direction: column;
+  gap: 30px;
+}
+.report .report-details .report-including .step .button {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+  background-color: white;
+}
+.report .report-details .report-including .step {
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer {
+  background-color: var(--primary-color);
+}
+.footer .footer-details {
+  justify-content: space-between;
+  align-items: start;
+  padding: 60px 117px;
+}
+.footer .footer-details .column {
+  flex-direction: column;
+  align-items: start;
+}
+.footer .footer-details .column p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer .footer-details .column a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.footer .footer-details .column .col-header {
+  color: var(--secondery-color);
 }

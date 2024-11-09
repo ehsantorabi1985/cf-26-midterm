@@ -6,6 +6,9 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.wrapper {
+  padding-right: 106px;
+}
 .row ::after {
   content: "";
   display: block;
